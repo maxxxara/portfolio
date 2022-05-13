@@ -77,8 +77,10 @@ header {
 .portfolio .project {
 	position: relative;
 	cursor: pointer;
+	margin-top: 20px;
 }
 .portfolio .project img {
+	height: 210px;
 	width: 100%;
 	filter: brightness(50%);
 }
@@ -141,4 +143,7 @@ header {
 	.filter ul li {
 		margin-left: 10px;
 	}
+}
+a {
+	color: #fff;
 }
