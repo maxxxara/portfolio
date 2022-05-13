@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<header>
+	<h1>Dati Makharashvili</h1>
+</header>
+
+<section class="filter">
+	<div class="container filter__content">
+		<ul>
+			<li class="active">ALL</li>
+			<li>HTML / CSS</li>
+			<li>JS</li>
+			<li>REACT</li>
+			<li>API</li>
+		</ul>
+	</div>
+</section>
+
+<section class="portfolio">
+	<div class="container portfolio__content">	
+		<div class="project">
+			<img src="https://lmpixels.com/wp/aveo-wp/demo2/wp-content/uploads/sites/2/2017/11/aveo-2-portfolio-1-768x512.jpg">
+			<div class="tags">
+				<span class="title">TODO App</span>
+				<span class="tag">HTML / CSS</span>
+			</div>
+		</div>
+		<div class="project">
+			<img src="https://lmpixels.com/wp/aveo-wp/demo2/wp-content/uploads/sites/2/2017/11/aveo-2-portfolio-1-768x512.jpg">
+		</div>
+		<div class="project">
+			<img src="https://lmpixels.com/wp/aveo-wp/demo2/wp-content/uploads/sites/2/2017/11/aveo-2-portfolio-1-768x512.jpg">
+		</div>
+	</div>
+</section>
+
+
+
+
+<script type="text/javascript">
+	
+	fetch('./data.json')
+	    .then(response => {
+	        console.log(response)
+	    })
+
+</script>
+</body>
+</html>

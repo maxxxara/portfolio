@@ -1,0 +1,53 @@
+{
+	"projects": [
+		{
+			"id": 1,
+			"title": "Guess Word",
+			"link": "https://harmonious-marshmallow-ef84ad.netlify.app/",
+			"img": "https://i.ibb.co/X4ZcVHm/Guess.jpg",
+			"filter": "REACT"
+		},
+		{
+			"id": 2,
+			"title": "TODO App",
+			"link": "https://statuesque-syrniki-353ade.netlify.app/",
+			"img": "https://i.ibb.co/RNVWcDs/Todo.jpg",
+			"filter": "REACT"
+		},
+		{
+			"id": 3,
+			"title": "Advice",
+			"link": "https://maxxxara.github.io/advice/",
+			"img": "https://i.ibb.co/Qpvt5sz/Advice.jpg",
+			"filter": "JS"
+		},
+		{
+			"id": 4,
+			"title": "Job Board",
+			"link": "https://maxxxara.github.io/JobBoard/",
+			"img": "https://i.ibb.co/n3SYbqF/JobBoard.jpg",
+			"filter": "HTML / CSS"
+		},
+		{
+			"id": 5,
+			"title": "Github API",
+			"link": "https://maxxxara.github.io/github-api/",
+			"img": "https://i.ibb.co/G2Fwzrx/github-Api.jpg",
+			"filter": "JS"
+		},
+		{
+			"id": 6,
+			"title": "Memory Game",
+			"link": "https://starlit-frangipane-7a5879.netlify.app/",
+			"img": "https://i.ibb.co/C0rptBt/Memory-2.jpg",
+			"filter": "REACT"
+		},
+		{
+			"id": 7,
+			"title": "Animation Landing",
+			"link": "https://streamable.com/mktegh",
+			"img": "https://i.ibb.co/RBSv58y/Animation.jpg",
+			"filter": "REACT"
+		}
+	]
+}

@@ -1,0 +1,144 @@
+@font-face {
+	font-family: FontWordle;
+	src: url(wordleFont.woff);
+}
+.container{
+  margin: 0 auto;
+  width: 80%;
+}
+@media screen and (max-width: 480px) {
+	.container{
+  		width: 95%;
+	}
+}
+@media screen and (min-width: 480px) {
+	.container{
+  		width: 90%;
+	}
+}
+@media screen and (min-width: 700px) {
+	.container {
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.container{
+  		width: 85%;
+	}
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #121113;
+	font-family: FontWordle;
+	color: #fefdfe;
+}
+body * {
+	font-family: FontWordle;
+}
+header {
+	padding: 20px 0;
+	text-align: center;
+}
+.filter__content {
+	margin-top: -10px;
+	display: flex;
+	justify-content: center;
+}
+.filter ul{
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+.filter ul li {
+	cursor: pointer;
+	padding: 7px 10px;
+	margin-left: 30px;
+}
+.filter ul .active {
+	transition: 1s;
+	color: #121113;
+	background: #fff;
+	border-radius: 4px;	
+}
+.filter ul li:nth-child(1) {
+	margin-left: 0;
+}
+
+.portfolio {
+	margin-top: 20px;
+}
+.portfolio__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+.portfolio .project {
+	position: relative;
+	cursor: pointer;
+}
+.portfolio .project img {
+	width: 100%;
+	filter: brightness(50%);
+}
+.tags {
+	position: absolute;
+	bottom: 16px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tag {
+	margin-right: 14px;
+	color: #fff;
+	padding: 7px 10px;
+	border-radius: 4px;
+	font-size: 12px;
+	background: #121113;
+	float: right;
+}
+.title {
+	margin-left: 14px;
+	font-size: 22px;
+	margin-top: -4px;
+}
+.portfolio .project:hover .title {
+	margin-top: -30px;
+	transition: .3s;
+}
+@media only screen and (min-width: 1500px) {
+	.tags {
+		bottom: 40px;
+	}
+	.tag {
+		margin-right: 24px;
+
+	}
+	.title {
+		margin-left: 34px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.portfolio__content {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media only screen and (max-width: 560px) {
+	.title {
+		font-size: 16px;
+		margin-top: 0;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.portfolio__content {
+		grid-template-columns: 1fr;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.filter ul li {
+		margin-left: 10px;
+	}
+}
