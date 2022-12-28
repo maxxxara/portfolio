@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Booking Movie Tickets APP",
+            "desc": "Desc 1",
+            "cover": "1-cover.jpg",
+            "video": "1.m4v",
+            "github": "https://github.com/maxxxara/movie-booking",
+            "figma": "https://www.figma.com/file/binrY478ivrXVZoeXMLE4W/TIX-ID-Web-Design-(Community)?node-id=622%3A5089&t=uCAWnetQ6uQEyBcU-1",
+            "demo": "https://movie-booking-delta.vercel.app/"
+        },
+        {
+            "id": 2,
+            "title": "Food Delivery - Foodz",
+            "desc": "Desc 2",
+            "cover": "3-cover.jpg",
+            "images": [
+                "3-1.jpg",
+                "3-2.jpg",
+                "3-3.jpg",
+                "3-4.jpg"
+            ],
+            "github": "https://github.com/maxxxara/foodz",
+            "figma": "https://www.figma.com/file/S1lXOXULN2Fm59bNDMskQp/Foodz?node-id=0%3A1&t=Cd5CHjVVQxP4gBB0-1",
+            "demo": "https://foodz-dusky.vercel.app/"
+        },
+        {
+            "id": 3,
+            "title": "Admin Panel - Dazzie",
+            "desc": "Desc 2",
+            "cover": "2-cover.jpg",
+            "images": [
+                "2-1.jpg",
+                "2-2.jpg",
+                "2-3.jpg",
+                "2-4.jpg"
+            ],
+            "github": "https://github.com/maxxxara/dashboard-dazzie",
+            "figma": "https://www.figma.com/file/AnJijlwZ8zSuDUYnfxPKNI/Dazboard---The-Ultimate-Dashboard-UI-Kit-(Community)?node-id=449%3A15914&t=0vKGum3WMmwTEpVq-1",
+            "demo": "https://dashboard-dazzie.vercel.app/"
+        }
+    ]
+}
