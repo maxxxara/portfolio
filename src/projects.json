@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Booking Movie Tickets APP",
-            "desc": "Desc 1",
+            "desc": "Ticket booking site. I started working on the project by writing my own API. The main problem that led to writing API from scratch was the reservation of seats. The problem I encountered while doing the project was the complexity of API and user interface integration. The package react query helped me to make complex fetches. ",
             "cover": "1-cover.jpg",
             "video": "1.m4v",
             "github": "https://github.com/maxxxara/movie-booking",
@@ -13,7 +13,7 @@
         {
             "id": 2,
             "title": "Food Delivery - Foodz",
-            "desc": "Desc 2",
+            "desc": "Food call and delivery service. The main purpose and benefit of building a specific application were to refine and improve markup skills. The grid system is mainly used, animations are added and user-flow is arranged. If you look at the design of the app and assemble it in Figma, you will see that the main goal was to bring the UI into code. ",
             "cover": "3-cover.jpg",
             "images": [
                 "3-1.jpg",
@@ -28,7 +28,7 @@
         {
             "id": 3,
             "title": "Admin Panel - Dazzie",
-            "desc": "Desc 2",
+            "desc": "Admin panel. The app is built on designs taken from the Figma community. The main purpose of creating the application was to improve markup skills. I also used a package that generates and draws statistics. This was my first contact with data sorting and styling, and I think I would be happy to work on a similar project in the future.",
             "cover": "2-cover.jpg",
             "images": [
                 "2-1.jpg",
